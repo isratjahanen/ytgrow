@@ -275,8 +275,8 @@ section {
 .containeroutput {
   position: relative;
   padding: 5px;
-  width: auto;
-  min-height: auto;
+  padding: 50px;
+  width: 260px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,7 +284,7 @@ section {
   backdrop-filter: blur(5px);
   border-radius: 10px;
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 input[type=Email] {
