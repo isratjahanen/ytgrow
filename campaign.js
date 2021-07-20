@@ -59,6 +59,6 @@
  
  
  document.getElementById("view").disabled = true;
- document.getElementById("camview").innerHTML = document.getElementById("camview").value;  
+ document.getElementById("camview").innerHTML = document.getElementById("view").value;  
  
  } 
