@@ -456,7 +456,7 @@ overflow: hidden;
 	
 }
    
-    .titlecat {
+    .titlecat b{
 		
 	font-size:3vw;	
 	}
@@ -503,7 +503,7 @@ overflow: hidden;
 	
 } 
    
-    .titlecat {
+    .titlecat b{
 		
 	font-size:3vw;	
 	}
@@ -540,7 +540,7 @@ overflow: hidden;
 	padding: 5px 0px 0px;		
 	font-size:2.5vw;	
 	}
-    .titlecat {
+    .titlecat b{
 		
 	font-size:3vw;	
 	}
@@ -577,7 +577,7 @@ overflow: hidden;
 	padding: 10px 1px 1px;		
 	font-size:2.5vw;	
 	}
-    .titlecat {
+    .titlecat b{
 		
 	font-size:2vw;	
 	}
@@ -607,7 +607,7 @@ overflow: hidden;
 	padding: 0px 1px 1px;	
 	font-size:1.5vw;	
 	}
-    .titlecat {
+    .titlecat b{
 		
 	font-size:2vw;	
 	}
