@@ -121,7 +121,7 @@ var resf = xg.replace("&m=1", "");
  
   
  var live = "Post/"+(res)+"/Commentpost";
-  alert(live);
+ 
  
 var ref = firebase.database().ref().child(live);
 
