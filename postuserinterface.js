@@ -117,6 +117,7 @@ var AD1 = firebase.database().ref("Admin").child('img');
 			
 			
 			});	
+document.getElementById("acceptcambutton").disabled = true;
 	
 }
 
