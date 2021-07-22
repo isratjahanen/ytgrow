@@ -78,6 +78,56 @@ firebase.initializeApp(config);
 			
   
       });
+
+
+/////////Accept Camagin/////////
+function acceptcampaign(){
+	var userid = localStorage.getItem("userid");
+	var Duid = "User/"+(userid);
+	
+	var xg = location.href;
+var resf = xg.replace("&m=1", "");
+var res = resf.replace("https://ytgrowup.blogspot.com/p/yt-video.html?" , "");
+var postid = res;
+var Temployer = document.getElementById("empid").innerHTML;
+	
+	localStorage.setItem("targetcamp", postid);
+	localStorage.setItem("targetemp", Temployer);
+	
+     var Tcount =  document.getElementById("Ttime").innerHTML;
+     var Tpoint = document.getElementById("Tpoint").innerHTML;
+     var Turl = document.getElementById("Turl").innerHTML;
+    
+    
+    firebase.database().ref(Duid).update({ 
+      
+      Temployer : Temployer,
+      Tcount : Tcount,
+      Tpoint : Tpoint,
+      Turl : Turl,
+      
+    
+	}); 
+	
+var AD1 = firebase.database().ref("Admin").child('img');
+            AD1.on('value', function(snapshot) {
+            var A = (snapshot.val());
+               
+			document.getElementById("checkimg").src = A;
+			
+			
+			});	
+	
+}
+
+function startcamp(){
+	window.open("campaignprocess.html", '_blank', 'toolbar=0,location=0,menubar=0');
+    var keyword = document.getElementById("Tkeyword").innerHTML;
+	
+    window.location.href = "https://www.youtube.com/results?search_query="+(keyword);
+	
+}
+
   
 
    function postcomment(){
