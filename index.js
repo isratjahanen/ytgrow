@@ -19,7 +19,7 @@ myapp.controller('Maincontoller', ["$scope", "$firebaseArray", "$interval", func
 var userid = localStorage.getItem('userid');
   $scope.sortType     = 'date'; // set the default sort type
 $scope.sortReverse  = false;  // set the default sort order
-$scope.searchFish   = 'Active';
+$scope.searchFish   = 'Active010102026612012378415695';
 $scope.myExpression = "!Campcomplite"+userid;
  $scope.showData = function( ){
 
