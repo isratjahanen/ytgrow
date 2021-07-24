@@ -48,7 +48,10 @@
       
       
       else{
-      alert("Submit Only Youtube video Url");
+	 document.getElementById("alertbox").innerHTML = "Submit Only Youtube video Url Like This: https://www.youtube.com/watch?v=C7cPVQY_Ky9";
+
+          modal.style.display = "block";
+    
       
       }
       
