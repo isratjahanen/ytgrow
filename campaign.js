@@ -56,9 +56,17 @@
     
     
  function view()  {
- 
- 
+ var campview = document.getElementById("view").value;
+ if(campview > 5) {
  document.getElementById("view").disabled = true;
+	 
+ }
+else{
+document.getElementById("alertbox").innerHTML = "Expected view minimum required 6";
+
+  modal.style.display = "block";
+
+}	 
  document.getElementById("camview").innerHTML = document.getElementById("view").value;  
  
  } 
