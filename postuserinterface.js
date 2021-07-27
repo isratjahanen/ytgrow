@@ -129,6 +129,17 @@ function startcamp(){
 	
 }
 
+////////Capmaign section end////
+////////Comment section Start////
+
+function lodcomment(){
+
+
+document.getElementById("commentsection").style.display = "block";
+
+
+}
+
   
 
    function postcomment(){
