@@ -22,7 +22,7 @@ firebase.initializeApp(config);
     var ST = firebase.database().ref(Duid).child('point');
             ST.on('value', function(snapshot) {
             var Y = (snapshot.val());
-			var point = "Point: "+Y;
+			var point = "Coin: "+Y;
 			
 			document.getElementById("point").innerHTML = point;
 			
