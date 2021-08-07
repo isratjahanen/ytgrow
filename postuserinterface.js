@@ -1,11 +1,14 @@
-var config = {
-    apiKey: "AIzaSyAqlUskzmjinKAQ7kpA1eJFLNJ1fEXgYkM",
-    authDomain: "browsersmart-5f450.firebaseapp.com",
-    databaseURL: "https://browsersmart-5f450-default-rtdb.firebaseio.com",
-    projectId: "browsersmart-5f450",
-    storageBucket: "browsersmart-5f450.appspot.com",
-    messagingSenderId: "600801488042",
-    appId: "1:600801488042:web:72df635247b5c1ee77f4d3"};
+  
+ var config = {
+    apiKey: "AIzaSyDv9t7POJtfTGBVd3wVj9gT8IFEoE0GCHA",
+  authDomain: "ytgrow-8cc23.firebaseapp.com",
+  databaseURL: "https://ytgrow-8cc23-default-rtdb.firebaseio.com",
+  projectId: "ytgrow-8cc23",
+  storageBucket: "ytgrow-8cc23.appspot.com",
+  messagingSenderId: "1027232645725",
+  appId: "1:1027232645725:web:bce8e1ad593006a47303b4",
+  measurementId: "G-K27848Z60V"
+ };
 firebase.initializeApp(config);
 
   
@@ -84,13 +87,11 @@ firebase.initializeApp(config);
 function acceptcampaign(){
 	var userid = localStorage.getItem("userid");
 	var Duid = "User/"+(userid);
-	
 	var xg = location.href;
 var resf = xg.replace("&m=1", "");
-var res = resf.replace("https://ytgrowup.blogspot.com/p/yt-video.html?" , "");
+var res = resf.replace("https://www.ytgrow.xyz/p/yt-video.html?" , "");
 var postid = res;
 var Temployer = document.getElementById("empid").innerHTML;
-	
 	localStorage.setItem("targetcamp", postid);
 	localStorage.setItem("targetemp", Temployer);
 	
@@ -146,8 +147,7 @@ document.getElementById("commentsection").style.display = "block";
 
 var xg = location.href;
 var resf = xg.replace("&m=1", "");
-var res = resf.replace("https://ytgrowup.blogspot.com/p/yt-video.html?" , "");
-           
+var res = resf.replace("https://www.ytgrow.xyz/p/yt-video.html?" , "");    
      var postid = res;
      var commentnow = +document.getElementById("comment").innerHTML;     
      var commentcount = +commentnow+1;
@@ -246,7 +246,7 @@ function reply_clicks(clicked_id)
   {
     var xg = location.href;
 var resf = xg.replace("&m=1", "");
-var res = resf.replace("https://ytgrowup.blogspot.com/p/yt-video.html?" , "");
+var res = resf.replace("https://www.ytgrow.xyz/p/yt-video.html?" , "");
     var postid = res;
     
     var Uuid = "box"+(clicked_id);
@@ -375,4 +375,6 @@ var Y5 = (m)+" "+(n)+" "+(e);
   
   
   }
+   
+  
   
