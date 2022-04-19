@@ -637,7 +637,7 @@ overflow: hidden;
 @media only screen and (max-width:1050px) and (min-width:651px) { 
     /* Small desktop / ipad view: 3 tiles */
     .box {
-        width: 99.3%;
+        width: 80.3%;
         padding-bottom: 33.3%;
    }
    
@@ -653,7 +653,7 @@ overflow: hidden;
 @media only screen and (max-width:1290px) and (min-width:1051px) { 
     /* Medium desktop: 4 tiles */
     .box {
-        width: 99.3%;
+        width: 80.3%;
         padding-bottom: 33.3%;
     }
 	
