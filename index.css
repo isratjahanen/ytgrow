@@ -761,6 +761,7 @@ section {
 
 .footer-distributed p.footer-links {
   font-size: 18px;
+  color: #000000;
   font-weight: bold;
   margin: 0 0 10px;
   padding: 0px;
@@ -778,6 +779,7 @@ section {
 
 .footer-distributed .footer-links a:before {
   font-size: 20px;
+  color: #000000;
   left: 0;
   display: inline-block;
   padding-right: 5px;
